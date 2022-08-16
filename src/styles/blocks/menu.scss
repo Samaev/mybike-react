@@ -1,5 +1,5 @@
 .menu {
-  background-color: $colorMainGrey;
+  background-color: #e5e5e5;
   overflow-y: auto;
 
   &__content {
@@ -34,10 +34,10 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     transition: border-color 0.3s;
-    color: $colorDarkGrey;
+    color: #1d1d1d;
 
     &:hover {
-      border-color: $colorDarkGrey;
+      border-color: #1d1d1d;
       cursor: url("../../images/cursor.svg"), auto;
     }
   }
@@ -48,14 +48,14 @@
     font-weight: 600;
     line-height: 27px;
     text-transform: uppercase;
-    color: $colorDarkGrey;
+    color: #1d1d1d;
   }
 
   &__order {
     display: block;
     padding-bottom: 8px;
     width: max-content;
-    border-bottom: 1px solid $colorDarkGrey;
+    border-bottom: 1px solid #1d1d1d;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -63,6 +63,6 @@
     line-height: 16px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: $colorDarkGrey;
+    color: #1d1d1d;
   }
 }
