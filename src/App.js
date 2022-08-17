@@ -3,6 +3,7 @@ import { Navbar } from "./components/Navbar";
 import { Main } from "./components/Main";
 import { Footer } from "./components/Footer";
 import "./styles/main.scss";
+import "floc-off";
 
 function App() {
   return (
