@@ -2,6 +2,12 @@
 import bike1 from "../images/bike1.jpg";
 import bike2 from "../images/bike2.jpg";
 import bike3 from "../images/bike3.jpg";
+import detail11 from "../images/detail1-1.jpg";
+import detail12 from "../images/detail1-2.jpg";
+import detail21 from "../images/detail2-1.png";
+import detail22 from "../images/detail2-2.jpg";
+import detail31 from "../images/detail3-1.jpg";
+import detail32 from "../images/detail3-2.jpg";
 
 export const Main = () => {
   return (
@@ -70,19 +76,11 @@ export const Main = () => {
             <div class="detail">
               <div class="detail__photos">
                 <div class="detail__photo-container">
-                  <img
-                    src="./images/detail1-1.jpg"
-                    alt="gps"
-                    class="detail__photo"
-                  />
+                  <img src={detail11} alt="gps" class="detail__photo" />
                 </div>
 
                 <div class="detail__photo-container">
-                  <img
-                    src="./images/detail1-2.jpg"
-                    alt="detail 2"
-                    class="detail__photo"
-                  />
+                  <img src={detail12} alt="detail 2" class="detail__photo" />
                 </div>
               </div>
               <h3 class="detail__title">Auto Unlock</h3>
@@ -96,19 +94,11 @@ export const Main = () => {
             <div class="detail">
               <div class="detail__photos">
                 <div class="detail__photo-container">
-                  <img
-                    src="./images/detail2-1.png"
-                    alt="gps"
-                    class="detail__photo"
-                  />
+                  <img src={detail21} alt="gps" class="detail__photo" />
                 </div>
 
                 <div class="detail__photo-container">
-                  <img
-                    src="./images/detail2-2.jpg"
-                    alt="detail 2"
-                    class="detail__photo"
-                  />
+                  <img src={detail22} alt="detail 2" class="detail__photo" />
                 </div>
               </div>
               <h3 class="detail__title">Range and Integrated lights</h3>
@@ -122,19 +112,11 @@ export const Main = () => {
             <div class="detail">
               <div class="detail__photos">
                 <div class="detail__photo-container">
-                  <img
-                    src="./images/detail3-1.jpg"
-                    alt="gps"
-                    class="detail__photo"
-                  />
+                  <img src={detail31} alt="gps" class="detail__photo" />
                 </div>
 
                 <div class="detail__photo-container">
-                  <img
-                    src="./images/detail3-2.jpg"
-                    alt="detail 2"
-                    class="detail__photo"
-                  />
+                  <img src={detail32} alt="detail 2" class="detail__photo" />
                 </div>
               </div>
               <h3 class="detail__title">

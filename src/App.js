@@ -6,7 +6,7 @@ import "./styles/main.scss";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App body">
       <Header />
       <Navbar />
       <Main />
