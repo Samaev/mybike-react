@@ -1,6 +1,7 @@
 {
   "name": "mybike-react",
   "version": "0.1.0",
+  "homepage": "https://Samaev.github.io",
   "private": true,
   "dependencies": {
     "-": "0.0.1",
@@ -8,7 +9,6 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "floc-off": "^1.0.2",
-    "homepage": "https://Samaev.github.io",
     "noflo-react": "^0.4.0",
     "nofloc": "^1.0.1",
     "react": "^18.2.0",
